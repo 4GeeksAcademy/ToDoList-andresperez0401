@@ -1,11 +1,8 @@
-import { Alert } from "bootstrap";
 import React from "react";
-import { use } from "react";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 export function ToDoList2() {
   const [tasks, setTasks] = useState([]);
-  const [input, setInput] = useState("");
 
   //Esta funcion se dispara cuando ocurre el evento de presionar enter.
   //Hara las validaciones y modificará el estado de input
